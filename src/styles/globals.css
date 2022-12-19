@@ -1,0 +1,25 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        font-family: "Inter", sans-serif;
+    }
+    html,
+    body {
+        @apply bg-[#0F1114] text-white h-full w-full text-base;
+        /*cursor-none;*/
+    }
+
+    .font-exo {
+        font-family: "Exo 2", sans-serif;
+    }
+
+    /* #__next {
+        @apply isolate flex min-h-full flex-col slashed-zero;
+    } */
+}
