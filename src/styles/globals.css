@@ -23,3 +23,26 @@
         @apply isolate flex min-h-full flex-col slashed-zero;
     } */
 }
+
+/* Logo Font */
+@font-face {
+    font-family: "BungeeShade-Regular";
+    src: url("../../public/fonts/BungeeShade-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("../../public/fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+#circle_animation {
+    font-size: 4vmin;
+    text-transform: uppercase;
+    animation: spin 14s linear infinite;
+    color: #ffffff;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
