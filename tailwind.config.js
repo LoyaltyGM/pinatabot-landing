@@ -13,6 +13,11 @@ module.exports = {
             xl: "1440px",
         },
 
+        fontFamily: {
+            bungee: ["BungeeShade-Regular", "sans-serif"],
+            bebas: ["BebasNeue-Regular", "sans-serif"],
+        },
+
         extend: {
             colors: {
                 // primary colors
