@@ -23,16 +23,17 @@
     "eslint-plugin-react-hooks": "^2.5.1"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/line-clamp": "^0.4.0",
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.8",
+    "circletype": "2.3.0",
     "classnames": "^2.3.1",
     "custom-cursor-react": "^1.0.5",
     "esm": "^3.2.25",
     "framer-motion": "^7.5.3",
     "gsap": "^3.10.4",
-    "circletype": "2.3.0",
     "postcss": "^8.4.14",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
