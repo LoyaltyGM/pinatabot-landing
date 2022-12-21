@@ -105,7 +105,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:h-1/3 h-[55vh] w-full bg-white rounded-2xl">
+                        <div className="lg:h-1/3 h-[30vh] w-full bg-white rounded-2xl">
                             <MyTabs />
                         </div>
                     </div>
