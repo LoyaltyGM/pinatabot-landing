@@ -33,16 +33,16 @@ const MyTabs = () => {
             </div>
             <Tab.Panels className={"pt-2 pl-4 text-black"}>
                 <Tab.Panel>
-                    <div className="text-bold text-2xl">{tabsContentTitle[0]}</div>
-                    <div className="text-bold text-lg">{tabsContent[0]}</div>
+                    <div className="text-2xl">{tabsContentTitle[0]}</div>
+                    <div>{tabsContent[0]}</div>
                 </Tab.Panel>
                 <Tab.Panel>
-                    <div className="text-bold text-2xl">{tabsContentTitle[1]}</div>
-                    <div className="text-bold text-lg">{tabsContent[1]}</div>
+                    <div className="text-2xl">{tabsContentTitle[1]}</div>
+                    <div>{tabsContent[1]}</div>
                 </Tab.Panel>
                 <Tab.Panel>
-                    <div className="text-bold text-2xl">{tabsContentTitle[2]}</div>
-                    <div className="text-bold text-lg">{tabsContent[2]}</div>
+                    <div className="text-2xl">{tabsContentTitle[2]}</div>
+                    <div>{tabsContent[2]}</div>
                 </Tab.Panel>
             </Tab.Panels>
         </Tab.Group>
