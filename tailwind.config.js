@@ -21,29 +21,10 @@ module.exports = {
         extend: {
             colors: {
                 // primary colors
-                purple: "#7343DF",
-                gray: "#F2F3F4",
-                white: "#FFFFFF",
-                graySupport: "#666666",
-                // text
-                black: "#1C1823",
-                black2: "#322F37",
-                gray2: "#AAAAAA",
-                gray3: "#CCCCCC",
-                // additional colors
-                yellow: "#F8E155",
-                pink: "#EF5390",
-                lilac: "#E3D9F9",
-                darkBlue: "#1E1E30", //70% transparent
-                gray5: "#AAAAAB",    // 50% transparent
-                // button
-                btnHover: "#5E37B5",
-                btnActive: "#885CEB",
-                btnDisabled: "#E0E0E0",
-                // Alert
-                green: "#54A547",
-                red: "#EB4747"
-                
+                pink: "#CB36A6",
+                blue: "#616FE8",
+                gray: "#CCCCCC",
+                darkGray: "E6E6E6",
             },
             fontFamily: {
                 'body': ["Inter"],
