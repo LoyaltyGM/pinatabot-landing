@@ -58,7 +58,7 @@ function Landing() {
                                 className="lg:w-full lg:h-full w-full h-[50vh] rounded-xl object-cover"
                             />
 
-                            <div className="absolute bottom-0 left-0 lg:pb-2 pb-4 pl-4">
+                            <div className="absolute bottom-0 left-0 lg:pb-2 pb-4 lg:pl-8 pl-4">
                                 Mystery Box
                             </div>
 
@@ -87,12 +87,12 @@ function Landing() {
                         <div className="lg:h-2/3 pb-1 flex gap-1">
                             <div className="hidden h-full w-1/2 bg-pink rounded-2xl p-6 lg:flex flex-col justify-center items-center">
                                 <img src={ASSETS.QR} className="w-3/4 h-1/2 object-contain" />
-                                <p className="text-xl font-light">SCAN ME</p>
+                                <p className="text-xl font-normal">SCAN ME</p>
                             </div>
                             <div className="h-full lg:w-1/2 w-full rounded-2xl">
                                 <div className="h-full flex flex-col justify-between">
-                                    <div className="lg:h-3/4 h-[30vh] flex items-center justify-center">
-                                        <div id="circle_animation" className="mt-4">
+                                    <div className="lg:h-3/4 h-[35vh] lg:text-3xl text-2xl flex items-center justify-center">
+                                        <div id="circle_animation" className="lg:mt-4">
                                             {animationText}
                                         </div>
                                     </div>
@@ -105,14 +105,14 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:h-1/3 h-[40vh] w-full bg-white rounded-2xl">
+                        <div className="lg:h-1/3 h-[35vh] w-full pr-2 bg-white rounded-2xl">
                             <MyTabs />
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:mt-0 mt-1 relative bg-white h-full rounded-lg">
                         <a href={REF_LOYALTY_URL} target={"_blank"} rel="noreferrer">
                             <img src={ASSETS.Card_LGM} className="w-full h-full object-cover" />
-                            <div className="absolute top-0 left-0 text-black pl-8">
+                            <div className="absolute top-0 left-0 text-black lg:pl-8 pl-4">
                                 <div className="text-9xl pt-6 font-bebas">GM!</div>
                                 <p className="">Loyalty NFT and bonus points</p>
                             </div>

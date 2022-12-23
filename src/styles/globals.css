@@ -36,7 +36,6 @@
 }
 
 #circle_animation {
-    font-size: 4vmin;
     text-transform: uppercase;
     animation: spin 14s linear infinite;
     color: #ffffff;

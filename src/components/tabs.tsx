@@ -27,21 +27,21 @@ const MyTabs = () => {
                         </Tab>
                     </div>
                 </Tab.List>
-                <div className="text-black pt-4 text-2xl font-bebas">
+                <div className="text-pink lg:pl-0 pl-4 pt-4 lg:text-3xl text-xl font-bebas">
                     Loyalty System for Projects
                 </div>
             </div>
             <Tab.Panels className={"pt-2 pl-4 text-black"}>
                 <Tab.Panel>
-                    <div className="text-2xl">{tabsContentTitle[0]}</div>
+                    <div className="text-lg font-semibold">{tabsContentTitle[0]}</div>
                     <div>{tabsContent[0]}</div>
                 </Tab.Panel>
                 <Tab.Panel>
-                    <div className="text-2xl">{tabsContentTitle[1]}</div>
+                    <div className="text-lg font-semibold">{tabsContentTitle[1]}</div>
                     <div>{tabsContent[1]}</div>
                 </Tab.Panel>
                 <Tab.Panel>
-                    <div className="text-2xl">{tabsContentTitle[2]}</div>
+                    <div className="text-lg font-semibold">{tabsContentTitle[2]}</div>
                     <div>{tabsContent[2]}</div>
                 </Tab.Panel>
             </Tab.Panels>
