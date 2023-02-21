@@ -1,5 +1,5 @@
 import React from "react";
-import { TWITTER_URL, MEDIUM_URL } from "../constants";
+import { TWITTER_URL, MEDIUM_URL, DISCORD_URL, DOCS_URL } from "../constants";
 
 const SocialNetworks = () => {
     return (
@@ -10,11 +10,20 @@ const SocialNetworks = () => {
                 </a>
             </p>
 
-            <p className="text-white py-3 hover:text-pink cursor-not-allowed">Discord</p>
+            <p className="text-white py-3 hover:text-pink">
+                <a href={DISCORD_URL} target="_blank" rel="noreferrer">
+                    Discord
+                </a>
+            </p>
 
-            <p className="text-white hover:text-pink cursor-pointer">
+            <p className="text-white pb-3 hover:text-pink cursor-pointer">
                 <a href={MEDIUM_URL} target="_blank" rel="noreferrer">
                     Medium
+                </a>
+            </p>
+            <p className="text-white hover:text-pink cursor-pointer">
+                <a href={DOCS_URL} target="_blank" rel="noreferrer">
+                    Docs
                 </a>
             </p>
         </div>
