@@ -27,7 +27,7 @@ const MyTabs = () => {
                         </Tab>
                     </div>
                 </Tab.List>
-                <div className="text-pink pt-4 lg:text-3xl text-2xl font-bebas">
+                <div className="text-pink pt-4 tracking-[0.030em] lg:text-3xl text-2xl font-bebas">
                     Loyalty System for Projects
                 </div>
             </div>

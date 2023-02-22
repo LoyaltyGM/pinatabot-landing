@@ -75,8 +75,9 @@ function Landing() {
                     <div className="lg:w-1/4 w-full flex lg:mt-0 mt-1 lg:flex-col lg:justify-between rounded-lg text-right items-right">
                         <SocialNetworks />
                         <a href={WEB_SITE_URL} target={"_blank"} rel="noreferrer">
-                            <button className="bg-pink w-full flex py-4 rounded-2xl text-2xl font-bebas items-center justify-center gap-1">
-                                {"Open app"} <ArrowUp />
+                            <button className="bg-pink w-full flex py-4 rounded-2xl text-2xl font-bebas tracking-[0.030em] items-center justify-center gap-1">
+                                <p>Open app</p>
+                                <ArrowUp />
                             </button>
                         </a>
                     </div>
@@ -97,8 +98,8 @@ function Landing() {
                                         </div>
                                     </div>
                                     <a href={APPLY_FORM} target={"_blank"} rel="noreferrer">
-                                        <button className="bg-blue font-bebas w-full py-4 rounded-2xl text-2xl flex gap-1 items-center justify-center ">
-                                            Enrolling your company in a loyalty program.
+                                        <button className="bg-blue font-bebas tracking-[0.030em] w-full py-4 rounded-2xl text-2xl flex gap-1 items-center justify-center ">
+                                            Enrolling your company in a loyalty program
                                             <ArrowUp />
                                         </button>
                                     </a>
