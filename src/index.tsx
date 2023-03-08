@@ -72,9 +72,14 @@ function Landing() {
                         </a>
                     </div>
 
-                    <div className="lg:w-1/4 w-full flex lg:mt-0 mt-1 lg:flex-col lg:justify-between rounded-lg text-right items-right">
+                    <div className="lg:mt-0 lg:flex-col lg:justify-between lg:w-1/4 w-full mt-1 flex rounded-lg text-right items-right">
                         <SocialNetworks />
-                        <a href={WEB_SITE_URL} target={"_blank"} rel="noreferrer">
+                        <a
+                            href={WEB_SITE_URL}
+                            target={"_blank"}
+                            rel="noreferrer"
+                            className="w-full"
+                        >
                             <button className="bg-pink w-full flex py-4 rounded-2xl text-2xl font-bebas tracking-[0.030em] items-center justify-center gap-1">
                                 <p>Open app</p>
                                 <ArrowUp />
