@@ -28,7 +28,7 @@ function Landing() {
             <div className="scrollbar-hide lg:h-[100vh] w-[100vw]">
                 {/* First Row */}
                 <div className="lg:flex px-3 pt-3 pb-1 gap-1 h-1/3 w-full">
-                    <div className="w-full lg:w-1/2 bg-white px-4 h-[10vh] lg:h-full flex lg:bg-white rounded-lg lg:justify-center lg:items-center items-center justify-between">
+                    <div className="w-full lg:w-1/2 bg-white px-4 py-4 lg:h-full flex lg:bg-white rounded-lg lg:justify-center lg:items-center items-center justify-between">
                         <div>
                             <Logo />
                             <p
@@ -60,7 +60,7 @@ function Landing() {
                             href={WEB_APP_SITE_URL}
                             target={"_blank"}
                             rel="noreferrer"
-                            className="w-full"
+                            className="w-full z-10"
                         >
                             <button className="bg-darkPink w-full flex py-4 rounded-2xl text-2xl tracking-[0.030em] items-center justify-center gap-1">
                                 <p>Open app</p>
@@ -126,12 +126,12 @@ function Landing() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:hidden flex h-[10vh] justify-between font-onest px-3 gap-1">
-                    <div className={"flex flex-col w-1/2 gap-1"}>
+                <div className="lg:hidden flex pb-5 justify-between font-onest px-3 gap-1">
+                    <div className={"flex flex-col h-[100px] w-1/2 gap-1"}>
                         <a
                             href={MAIL_TO_URL}
                             className={
-                                "w-full flex content-center items-center justify-center bg-darkPink rounded-md h-1/2"
+                                "w-full flex  content-center items-center justify-center bg-darkPink rounded-md h-1/2"
                             }
                         >
                             info@pinatabot.com
@@ -147,7 +147,7 @@ function Landing() {
                             Docs
                         </a>
                     </div>
-                    <div className={"flex flex-col w-1/2 gap-1"}>
+                    <div className={"flex flex-col h-[100px] w-1/2 gap-1"}>
                         <a
                             href={TWITTER_URL}
                             className={
