@@ -1,1 +1,1 @@
-# LoyaltyGM - Landing
+# PinataBot - Landing

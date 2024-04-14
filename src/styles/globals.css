@@ -11,8 +11,7 @@
     }
     html,
     body {
-        @apply bg-[#0F1114] text-white h-full w-full text-base;
-        /*cursor-none;*/
+        @apply bg-darkBlue text-white h-full w-full text-base;
     }
 
     .font-exo {
@@ -24,15 +23,20 @@
     } */
 }
 
-/* Logo Font */
-@font-face {
-    font-family: "BungeeShade-Regular";
-    src: url("../../public/fonts/BungeeShade-Regular.ttf") format("truetype");
-}
 
 @font-face {
     font-family: "BebasNeue-Regular";
     src: url("../../public/fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Onest-Regular";
+    src: url("../../public/fonts/Onest-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Onest-Medium";
+    src: url("../../public/fonts/Onest-Medium.ttf") format('truetype');
 }
 
 #circle_animation {

@@ -1,15 +1,13 @@
-// gif card
-import Card_LGM from "assets/gif/LGM_4mb.gif";
+import GoogleAccount from "assets/GoogleAccount.png";
+import MainPinata from "assets/MainPinata.png";
+import MonitorTokenPrice from "assets/MonitorTokenPrice.png";
+import SquadImage from "assets/SquadImage.png";
 
-// lootboxes
-import LBOX from "assets/lootbox/LBOX.png";
-import QR from "assets/QR-Code.png";
 const ASSETS = {
-    // card gif
-    Card_LGM: Card_LGM,
-    // lootboxes
-    LBOX: LBOX,
-    QR: QR,
+    Google_Account: GoogleAccount,
+    MainPinata: MainPinata,
+    MonitorTokenPrice: MonitorTokenPrice,
+    SquadImage: SquadImage,
 };
 
 export default ASSETS;
