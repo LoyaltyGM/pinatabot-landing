@@ -36,7 +36,7 @@ function Landing() {
                                     "text-darkBlue font-onest mt-0 lg:text-2xl"
                                 }
                             >
-                                Telegram bot for manage assets on Sui network
+                                Telegram bot to manage assets on Sui network
                             </p>
                         </div>
                     </div>
