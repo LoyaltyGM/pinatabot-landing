@@ -1,9 +1,7 @@
-import React, { useEffect, Fragment, useState } from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
-import CustomCursor from "custom-cursor-react";
 import ASSETS from "assets";
 import "./styles/globals.css";
-import CircleType from "circletype";
 import ArrowUp from "components/icons/ArrowUp";
 import MyTabs from "components/tabs";
 import Logo from "components/logo";
@@ -17,12 +15,6 @@ import {
 } from "./constants";
 
 function Landing() {
-    // useEffect(() => {
-    //     new CircleType(document.getElementById("circle_animation"));
-    // }, []);
-
-    // const animationText: string = "🍩🍩🍩🍩🍩🍩";
-
     return (
         <>
             <div className="scrollbar-hide w-[100vw] lg:h-[100vh]">
