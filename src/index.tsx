@@ -25,44 +25,40 @@ function Landing() {
 
     return (
         <>
-            <div className="scrollbar-hide lg:h-[100vh] w-[100vw]">
+            <div className="scrollbar-hide w-[100vw] lg:h-[100vh]">
                 {/* First Row */}
-                <div className="lg:flex px-3 pt-3 pb-1 gap-1 h-1/3 w-full">
-                    <div className="w-full lg:w-1/2 bg-white px-4 py-4 lg:h-full flex lg:bg-white rounded-lg lg:justify-center lg:items-center items-center justify-between">
+                <div className="h-1/3 w-full gap-1 px-3 pt-3 pb-1 lg:flex">
+                    <div className="flex w-full items-center justify-between rounded-lg bg-white px-4 py-4 lg:h-full lg:w-1/2 lg:items-center lg:justify-center lg:bg-white">
                         <div>
                             <Logo />
-                            <p
-                                className={
-                                    "text-darkBlue font-onest mt-0 lg:text-2xl"
-                                }
-                            >
-                                Telegram bot to manage assets on Sui network
+                            <p className={"mt-0 font-onest text-darkBlue lg:text-2xl"}>
+                                The best Pre-market and OTC market on Sui Network
                             </p>
                         </div>
                     </div>
 
-                    <div className="lg:w-1/4 lg:mt-0 lg:h-full h-[40vh] bg-darkPurple mt-1 relative rounded-xl text-center flex flex-col">
-                        <p className="text-4xl font-onestMedium text-left pt-3 lg:pb-2 pb-4 lg:pl-8 pl-4">
-                            Monitor token price
+                    <div className="relative mt-1 flex h-[40vh] flex-col rounded-xl bg-darkPurple text-center lg:mt-0 lg:h-full lg:w-1/4">
+                        <p className="pt-3 pb-4 pl-4 text-left font-onestMedium text-4xl lg:pb-2 lg:pl-8">
+                            Buy tokens before the launch
                         </p>
-                        <div className="flex-grow flex items-end">
+                        <div className="flex flex-grow items-end">
                             <img
                                 src={ASSETS.MonitorTokenPrice}
-                                className="w-full rounded-b-2xl object-fit"
+                                className="object-fit w-full rounded-b-2xl"
                                 alt="Monitor token price image"
                             />
                         </div>
                     </div>
 
-                    <div className="lg:mt-0 lg:flex-col lg:justify-between lg:w-1/4 w-full mt-1 flex rounded-lg text-right items-right">
+                    <div className="items-right mt-1 flex w-full rounded-lg text-right lg:mt-0 lg:w-1/4 lg:flex-col lg:justify-between">
                         <SocialNetworks />
                         <a
                             href={WEB_APP_SITE_URL}
                             target={"_blank"}
                             rel="noreferrer"
-                            className="w-full z-10"
+                            className="z-10 w-full"
                         >
-                            <button className="bg-darkPink w-full flex py-4 rounded-2xl text-2xl tracking-[0.030em] items-center justify-center gap-1">
+                            <button className="flex w-full items-center justify-center gap-1 rounded-2xl bg-darkPink py-4 text-2xl tracking-[0.030em]">
                                 <p>Open app</p>
                                 <ArrowUp />
                             </button>
@@ -70,68 +66,43 @@ function Landing() {
                     </div>
                 </div>
                 {/* Second Row */}
-                <div className="px-3 pb-1 lg:flex w-full lg:h-2/3 gap-1">
-                    <div className="lg:w-1/2 h-full gap-1">
-                        <div className="lg:h-2/3 pb-1 lg:flex gap-1">
-                            <div className="h-full lg:w-1/2 bg-darkPink rounded-2xl p-3 lg:flex flex-col justify-center items-center">
-                                <p className="text-4xl font-onestMedium">
-                                    Create wallet using your Google account
+                <div className="w-full gap-1 px-3 pb-1 lg:flex lg:h-2/3">
+                    <div className="h-full gap-1 lg:w-1/2">
+                        <div className="gap-1 pb-1 lg:flex lg:h-2/3">
+                            <div className="h-full flex-col items-center justify-center rounded-2xl bg-darkPink p-3 lg:flex lg:w-1/2">
+                                <p className="font-onestMedium text-4xl">
+                                    OTC market for secure token trading with friends
                                 </p>
-                                <img
-                                    src={ASSETS.Google_Account}
-                                    className="w-3/4 h-1/2 object-contain"
-                                />
                             </div>
-                            <div className="h-full lg:mt-0 mt-1 lg:w-1/2 bg-darkPurple w-full rounded-2xl">
-                                <div className="h-full flex flex-col justify-between">
-                                    <div className="lg:h-full h-[35vh] lg:text-3xl text-2xl flex items-center justify-center overflow-hidden">
-                                        <div className="flex-grow flex items-end p-4">
-                                            <img
-                                                src={ASSETS.SquadImage}
-                                                className="w-full object-fit object-cover"
-                                                alt="Squad Image"
-                                            />
+                            <div className="mt-1 h-full w-full rounded-2xl bg-darkPurple lg:mt-0 lg:w-1/2">
+                                <div className="flex h-full flex-col justify-between">
+                                    <div className="flex h-[35vh] items-center justify-center overflow-hidden text-2xl lg:h-full lg:text-3xl">
+                                        <div className="flex flex-grow items-end p-4">
+                                            Over $1.6M in offers and 4 successful launches
                                         </div>
                                     </div>
-                                    <a
-                                        href={WEB_APP_SITE_URL}
-                                        target={"_blank"}
-                                        rel="noreferrer"
-                                    >
-                                        <button className="bg-blueLight tracking-[0.030em] w-full py-4 rounded-2xl text-2xl flex gap-1 items-center justify-center content-center">
-                                            <p className={"mt-1"}>
-                                                Create Squad
-                                            </p>
-                                            <ArrowUp />
-                                        </button>
-                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:h-1/3 pb-10 w-full pr-2 bg-white rounded-2xl">
+                        <div className="w-full rounded-2xl bg-white pb-10 pr-2 lg:h-1/3">
                             <MyTabs />
                         </div>
                     </div>
-                    <div className="lg:w-1/2 lg:mt-0 mt-1 relative bg-white h-full rounded-lg">
+                    <div className="relative mt-1 h-full rounded-lg bg-white lg:mt-0 lg:w-1/2">
                         <a href={""} target={"_blank"} rel="noreferrer">
                             <img
                                 src={ASSETS.MainPinata}
-                                className="w-full h-full object-cover"
+                                className="h-full w-full object-cover"
                             />
-                            <div className="absolute top-0 left-0 text-darkBlue lg:pl-8 pl-4">
-                                <div className="lg:text-9xl text-6xl pt-6 font-onestMedium">
-                                    TAP&EARN
-                                </div>
-                            </div>
                         </a>
                     </div>
                 </div>
-                <div className="lg:hidden flex pb-5 justify-between font-onest px-3 gap-1">
-                    <div className={"flex flex-col h-[100px] w-1/2 gap-1"}>
+                <div className="flex justify-between gap-1 px-3 pb-5 font-onest lg:hidden">
+                    <div className={"flex h-[100px] w-1/2 flex-col gap-1"}>
                         <a
                             href={MAIL_TO_URL}
                             className={
-                                "w-full flex  content-center items-center justify-center bg-darkPink rounded-md h-1/2"
+                                "flex h-1/2  w-full content-center items-center justify-center rounded-md bg-darkPink"
                             }
                         >
                             info@pinatabot.com
@@ -141,17 +112,17 @@ function Landing() {
                             target={"_blank"}
                             rel="noreferrer"
                             className={
-                                "w-full flex content-center items-center justify-center bg-darkPurple rounded-md h-1/2"
+                                "flex h-1/2 w-full content-center items-center justify-center rounded-md bg-darkPurple"
                             }
                         >
                             Docs
                         </a>
                     </div>
-                    <div className={"flex flex-col h-[100px] w-1/2 gap-1"}>
+                    <div className={"flex h-[100px] w-1/2 flex-col gap-1"}>
                         <a
                             href={TWITTER_URL}
                             className={
-                                "w-full flex content-center items-center justify-center bg-blueLight rounded-md h-1/2"
+                                "flex h-1/2 w-full content-center items-center justify-center rounded-md bg-blueLight"
                             }
                         >
                             Twitter
@@ -159,7 +130,7 @@ function Landing() {
                         <a
                             href={TELEGRAM_URL}
                             className={
-                                "w-full flex content-center items-center justify-center bg-darkGreen rounded-md h-1/2"
+                                "flex h-1/2 w-full content-center items-center justify-center rounded-md bg-darkGreen"
                             }
                         >
                             Telegram
